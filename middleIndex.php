@@ -45,20 +45,20 @@
     <div class="col-sm-10">
     <form>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Imię</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="imie" class="form-label">Imię</label>
+        <input type="text" class="form-control" id="imie">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nazwisko</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="nazwisko" class="form-label">Nazwisko</label>
+        <input type="text" class="form-control" id="nazwisko">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">O mnie</label>
-        <textarea class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" autocorrect=on rows=5></textarea>
+        <label for="oMnie" class="form-label">O mnie</label>
+        <textarea class="form-control" id="oMnie" autocorrect=on rows=5></textarea>
     </div>
     </form>
     </div>
