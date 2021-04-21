@@ -60,6 +60,7 @@
         <label for="oMnie" class="form-label">O mnie</label>
         <textarea class="form-control" id="oMnie" autocorrect=on rows=5></textarea>
     </div>
+    <button type="sumbit" class="btn btn-success">Wyślij</button>
     </form>
     </div>
 </div>
