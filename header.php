@@ -21,7 +21,7 @@
         
       </ul>
       
-        <a class="btn btn-outline-light me-2" type="submit">Zaloguj</a>
+        <a class="btn btn-outline-light me-2" href="logowanie.php">Zaloguj</a>
         <a class="btn btn-outline-light" href="rejestracja.php">Zarejestruj</a>
     </div>
   </div>
