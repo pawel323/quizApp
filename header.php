@@ -22,7 +22,7 @@
       </ul>
       
         <a class="btn btn-outline-light me-2" type="submit">Zaloguj</a>
-        <a class="btn btn-outline-light" type="submit">Zarejestruj</a>
+        <a class="btn btn-outline-light" href="rejestracja.php">Zarejestruj</a>
     </div>
   </div>
 </nav>
