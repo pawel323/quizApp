@@ -84,7 +84,7 @@ if (isset($_POST['login'], $_POST['pass'], $_POST['passRepeat'], $_POST['email']
             {
                 
                 
-                if ($polaczenie->query(sprintf("INSERT INTO uzytkownicy VALUES (NULL, '%s', '$haslo_hash', '%s')"),mysqli_real_escape_string($polaczenie,$nick,$emailB)))
+                if ($polaczenie->query(sprintf("INSERT INTO uzytkownicy VALUES (NULL, '%s', '$haslo_hash', '%s', '2')"),mysqli_real_escape_string($polaczenie,$nick,$emailB)))
                 {
                     $_SESSION['udanarejestracja']="Rejestracja przebiegła pomyślnie";
                     header('Location: witamy.php');
