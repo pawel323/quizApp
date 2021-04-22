@@ -1,13 +1,9 @@
 <div class="container">
 <div class="row my-1">
-<?php
-			if (isset($_SESSION['udanarejestracja']))
-			{
-				echo '<div>'.$_SESSION['udanarejestracja'].'</div>';
-				unset($_SESSION['udanarejestracja']);
-			}
-?>
+
     <h2 class="text-center">Rejestracja użytkownika</h2>
+    
+
 <div>
 <div class="row my-1">
 <form method="POST">
@@ -24,7 +20,7 @@
     </div>
     <div class="mb-3">
         <label for="nazwisko" class="form-label">Hasło</label>
-        <input type="text" class="form-control" id="nazwisko" name="pass" required>
+        <input type="password" class="form-control" id="nazwisko" name="pass" required>
         <?php
 			if (isset($_SESSION['e_haslo']))
 			{
@@ -35,7 +31,7 @@
     </div>
     <div class="mb-3">
         <label for="nazwisko" class="form-label">Powtórz hasło</label>
-        <input type="text" class="form-control" id="nazwisko" name="passRepeat" required>
+        <input type="password" class="form-control" id="nazwisko" name="passRepeat" required>
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">E-mail</label>
@@ -50,5 +46,24 @@
     </div>
     <button type="sumbit" class="btn btn-success">Zarejestruj</button>
 </form>
+
 </div>
+</div>
+
+<?php
+			if (isset($_SESSION['wrongValidate']))
+			{
+				echo '<div>'.$_SESSION['wrongValidate'].'</div>';
+				unset($_SESSION['wrongValidate']);
+			}
+?>
+<div class="modal" tabindex="-1" id="Potwierdzenie">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Udana rejestracja</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
 </div>
